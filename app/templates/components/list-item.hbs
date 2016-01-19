@@ -1,0 +1,10 @@
+<div class="list-panel">
+  <div class="img-container">
+    <img src="/assets/images/{{if drunkEmber 'drunk-ember.png' item.imageUrl}}" class="list-image"/>
+  </div>
+
+  <h5>{{item.name}}</h5>
+  <a class="button {{if selected 'button-primary'}}" {{action 'selectItem'}} id={{camelizedName}}>
+    {{if selected 'Selected' 'Select'}}
+  </a>
+</div>
