@@ -5,7 +5,7 @@ export default Ember.Route.extend({
   model() {
     const list = [
       { name: 'Nintendo 64',          image: 'n64.png' },
-      { name: 'Craft Beer',           image: 'beer.png' },
+      { name: 'Craft Beer',           image: 'craft-beer.png' },
       { name: 'Coffee',               image: 'coffee.jpg' },
       { name: 'Stand-up Desk',        image: 'stand-up-desk.jpg' },
       { name: '5K Apple Monitor',     image: '5k-monitor.jpg' },
